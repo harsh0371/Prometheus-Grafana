@@ -5,8 +5,8 @@
 
 # Monitoring Stack with Prometheus and Grafana
 
-## Created by Harsh (B-2)
-## SAP- 500107796
+### Created by Harsh (B-2)
+### SAP- 500107796
 
 This project sets up a complete monitoring stack using Prometheus and Grafana with Node Exporter for system metrics collection.
 
@@ -40,7 +40,9 @@ docker-compose up -d
 -   **Node Exporter Metrics**: http://localhost:9100/metrics
 
 ![Image](/assets/pg2.png)
+
 ![Image](/assets/pg3.png)
+
 ![Image](/assets/pg4.png)
 
 ## Verify Node Exporter and Grafana UP in Prometheus
@@ -61,6 +63,7 @@ docker-compose up -d
     - Click "Save & Test"
 
 ![Image](/assets/pg7.png)
+
 3. Import the Node Exporter dashboard:
     - Click "new" → Import
     - Enter dashboard ID: 1860 and click load
@@ -68,6 +71,7 @@ docker-compose up -d
     - Click Import
 
 ![Image](/assets/pg8.png)
+
 ![Image](/assets/pg9.png)
 
 ## Dashboard
